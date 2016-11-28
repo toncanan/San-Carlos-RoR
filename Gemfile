@@ -6,9 +6,9 @@ gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
 
 group:development do
-	gem 'sqlite3', '1.3.12'
+	gem 'sqlite3' #, '1.3.12'
 	# Call 'byebug' anywhere in the code to stop execution and get a debugger console
-	gem 'byebug', '9.0.0', platform: :mri
+	#gem 'byebug', '9.0.0', platform: :mri
 end
 
 group:production do
