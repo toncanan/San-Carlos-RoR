@@ -15,7 +15,7 @@ group:production do
 	gem 'pg' #, '0.18.4'
 end
 
-gem 'ruby', '2.2.6'
+ruby '2.3.1'
 
 gem 'puma', '~> 3.0'
 
